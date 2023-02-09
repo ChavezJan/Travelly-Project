@@ -38,7 +38,9 @@ a {
 }
 button {
   padding: 2rem 6rem;
-  background: #4c6e97;
+
+  background: #27394e;
+
   border: none;
   color: white;
   font-size: 1.8rem;
@@ -50,7 +52,7 @@ button:hover {
   border-radius: 10px;
 }
 
-/* Header */
+/* HEADER SECTION*/
 /* Nav section with hero */
 
 .main-header {
@@ -141,7 +143,6 @@ nav ul {
   opacity: 0.6;
   animation: cloudAnimation2 4s infinite alternate ease-in-out;
 }
-
 /* keyframes */
 
 @keyframes cloudAnimation {
@@ -159,6 +160,56 @@ nav ul {
   to {
     transform: translate(0%, 0%);
   }
+}
+
+/* BENEFITS SECTION */
+/* header */
+#benefits {
+}
+.benefits_header {
+  background-color: #343c44;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.benefits_header h2 {
+  text-decoration: underline;
+}
+.benefits_header h3 {
+  padding: 1rem;
+}
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  flex: 1 1 27rem;
+  min-height: 40vh;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  margin: 2rem 5rem;
+}
+.card h4,
+p {
+  padding: 2rem;
+}
+
+.card_img {
+  background: #27394e;
+}
+.cards img {
+  max-width: 20%;
+  margin: 2rem;
 }
 
 /* Media Query */
