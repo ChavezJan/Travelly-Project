@@ -58,6 +58,9 @@ button:hover {
 .main-header {
   background: #131c27;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 nav {
   min-height: 10vh;
@@ -249,7 +252,34 @@ p {
   margin-top: 8rem;
   border-radius: 0 0 20px 20px;
 }
+.form-wrapper input {
+  padding: 1rem 3rem;
+}
 
+/* FOOTER SECTION */
+footer {
+  color: white;
+  background: rgba(19, 28, 39, 1);
+}
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+footer h5 {
+  flex: 1 1 40rem;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+}
 /* Media Query */
 
 @media screen and (max-width: 1050px) {
@@ -279,5 +309,14 @@ p {
   }
   .moving-cloud-2 {
     z-index: -2;
+  }
+  .form-wrapper {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h5 {
+    padding-bottom: 5rem;
   }
 }
