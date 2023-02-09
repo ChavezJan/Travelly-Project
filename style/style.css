@@ -280,6 +280,13 @@ footer ul {
   justify-content: space-around;
   align-items: center;
 }
+
+/* ACCS */
+button:focus {
+  background: #53667e;
+  outline-style: solid;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 1050px) {
